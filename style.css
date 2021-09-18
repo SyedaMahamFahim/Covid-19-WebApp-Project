@@ -12,20 +12,30 @@ body{
 }
 h1{
     color:#474B4F;
+    font-size: 20px;
+    font-weight: 700;
 }
 p{
     color: #4a4c4f;
     font-size: small;
 }
-/* button{
-    margin: 0px 15px;
-} */
+section{
+    padding: 20px 15px;
+}
+hr {
+    color: #80808075;
+}
 .container{
     margin: 20px 0px;
 }
+.capitalize{
+    text-transform: capitalize;
+}
+.btn {
+    display: block;
+}
 .hero-section{
     background-color: var(--lightgrey);
-    padding: 20px 15px;
 }
 .hero-section img:first-child{
     width: 60px;
@@ -41,7 +51,6 @@ p{
     font-weight: 700;
 }
 .block-btn{
-    display: block;
     width: 100%;
     border: none;
     background-color: var(--blue);
@@ -52,5 +61,63 @@ p{
     margin: 0px 8px;
     color: white;
     border-radius: 5px;
+}
 
+.detail {
+    display: flex;
+    margin: 30px 0px;
+}
+.detail img {
+    width: 20%;
+    height: fit-content;
+}
+.detail-content {
+    padding: 0px 10px;
+}
+span.arrow {
+    font-size: 18px;
+    float: right;
+    font-weight: 900;
+    position: relative;
+    bottom: 20px;
+    color: black;
+}
+.logo-close-header{
+    background-color: var(--lightgrey);
+    display: flex;
+    padding:0 25px;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-between;
+}
+.logo-close-header img{
+    width: 60px;
+    position: relative;
+    top: 25px;
+}
+.close-btn {
+    margin-top: 20px;
+}
+
+.content-of-pages {
+    margin-top: 12%;
+}
+.content-of-pages h1{
+    font-size: 25px;
+}
+.content-of-pages li{
+    list-style: auto;
+    color: black;
+    font-size: 20px;
+    padding: 2px;
+}
+.content-of-pages p{
+    font-size: 17px;
+}
+.fever-img {
+    width: 70%;
+    margin: 50px auto;
+}
+.fever-img img{
+    width: -webkit-fill-available;
 }
